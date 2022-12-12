@@ -1,4 +1,12 @@
-/*////////////////////////////////////////////////////////////////////////
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,400&display=swap');
+* {
+    padding: 0;
+    Margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*/hierboven is een CSS RESET/ grijs #899CA0 en donkergroen #1C2B32//////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
     2. Typografie
@@ -9,7 +17,6 @@ Table of Contents:
         3.4 Faq
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
-
 
 
 /*////////////////////////
@@ -23,6 +30,12 @@ Table of Contents:
 ////////////////////////*/
 
 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
 
 /*////////////////////////
     3. Areas
@@ -31,19 +44,174 @@ Table of Contents:
 
 
 /*///////////// 3.1 Header /////////////*/
+header{
+    background: url(/assets/images/mountains.jpg) no-repeat center local;
+    background-size: cover;
+}
+
+.header-tekst{
+    margin-left:250px;
+    max-width: 1000px;
+    max-height:400px;
+    padding:80px 0px 600px 0px;
+}
+
+h1 {
+    color: #1C2B32;
+    font-family: 'Poppins', sans-serif;
+    font-size:100px;
+    font-weight:1000;
+}
+
+p{
+    color:#1C2B32;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+    padding: 20px;
+
+}
+
+.domainname{
+    border-radius: 40px 0px 0px 40px;
+    height:50px;
+    width:250px;
+    color: #1C2B32;
+    margin: -4px;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    background-color: transparent;
+    text-align: center;
 
 
+}
+.check-availability {
+    border-radius: 0px 40px 40px 0px;
+    height:50px;
+    width:250px;
+    background-color: #1C2B32;
+    color: white;
+    margin: -2px;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    text-align: center;
+
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
 
+main {
+    width:1000px;
+    margin-left:250px;
+    margin-top:50px;
+ }
 
+.jane-doe{
+    display: inline-block;
+    margin-top:50px;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.15);
+    width:1000px;
+    height:300px;
+
+}.jane-doe-name{
+    font-size:12px;
+    color: #899CA0;
+    font-style:italic;
+ }
+
+.john-smith {
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    width: 1000px;
+    height: 300px;
+    font-size: 10px;
+    color: #899CA0;
+    font-style: italic;
+}
+
+.john-smith-name{
+    display:inline-block;
+    font-size:12px;
+    color: #899CA0;
+    font-style:italic;
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+ }
 
 /*///////////// 3.3 Support /////////////*/
 
+.we-will-help-you {
+    width: 1000px;
+    margin-top: 70px;
+}
 
+a:link {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #899CA0;
+}
+
+.callcentre {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 5%;
+}
+
+.contact-us-button{
+    border-radius: 20px 20px 20px 20px;
+    height:50px;
+    width:250px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+    background-color: #1C2B32;
+    text-align: center;
+    margin-left:-700px;
+}
 
 /*///////////// 3.4 Faq /////////////*/
 
+.questions-and-answers{
+    width: 1000px;
+    margin-top: 100px;
+}
+
+details {
+    text-align: left;
+    width: 900px;
+}
+
+details > summary {
+    padding: 20px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+}
+
+details > p {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #1C2B32;
+    padding: 20px 20px;
+    color:white;
+    box-shadow: 3px 3px 4px black;
+    font-family: 'Poppins', sans-serif;
+    font-size:14px;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
+.footer {
+    background-color: #1C2B32;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:12px;
+    text-align:center;
+    position:fixed;
+    padding:10px;
+}
+
+
